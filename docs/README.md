@@ -2,8 +2,8 @@
 
 # @autopack/vpack [](https://github.com/yanppanmichael/@autopack/vpack#readme)
 
-> 📦 基于 rollup 的 JS、TS 包基础核心构建工具
-> One common construction and package tool for JS/TScomponents based on Rollup 📦
+> 📦 基于 rollup 的 VUE 包基础核心构建工具
+> One common construction and package tool for VUE components based on Rollup 📦
 
 ## ✨ 特性
 
@@ -25,11 +25,9 @@ npm i -D @autopack/vpack # 或 yarn add -D @autopack/vpack
 
 ```js
   "scripts": {
-    "build": "NODE_ENV=production vpack build --source=js"
+    "build": "NODE_ENV=production vpack build"
   },
 ```
-
-需要通过参数`source`指定构建打包源文件格式，其取值为`'js', 'ts'`格式之一。
 
 **第二步**：命令行进入项目目录，运行：
 
@@ -88,7 +86,7 @@ batchPackage 布尔状态会自动开启批量打包, 默认批量路径为"./pa
 module.exports = ({ pkg } = {}) => {
   return {
     // 输入
-    input: 'src/index.ts',
+    input: 'src/index.vue',
 
     // 输出
     output: {

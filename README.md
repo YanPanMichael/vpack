@@ -8,8 +8,8 @@
 [![MIT][license-badge]][license]
 [![Build Status - GitHub Actions][gha-badge]][gha-ci]
 
-> 📦 基于 rollup 的 JS、TS 包基础核心构建工具
-> One common construction and package tool for JS/TS components based on Rollup 📦
+> 📦 基于 rollup 的 VUE 包基础核心构建工具
+> One common construction and package tool for VUE components based on Rollup 📦
 
 ## ✨ Features
 
@@ -38,10 +38,6 @@ npm i -D @autopack/vpack@latest # OR yarn add -D @autopack/vpack@latest
     "build": "NODE_ENV=production vpack build --source=js"
   },
 ```
-
-需要通过参数`source`指定构建打包源文件格式，其取值为`'js', 'ts'`四种格式之一。
-
-You need to specify the build and packaging source file format through the parameter 'source', and its values are one of the four formats of 'js', 'ts'.
 
 **Second Step**：Goes to the project directory and runs:
 
@@ -112,7 +108,7 @@ batchPackage 布尔状态会自动开启批量打包, 默认批量路径为"./pa
 module.exports = ({ pkg } = {}) => {
   return {
     // 输入 Input
-    input: 'src/index.ts',
+    input: 'src/index.vue',
 
     // 输出 Output
     output: {

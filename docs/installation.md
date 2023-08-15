@@ -10,11 +10,9 @@ npm i -D @autopack/vpack # 或 yarn add -D @autopack/vpack
 
 ```js
   "scripts": {
-    "build": "NODE_ENV=production vpack build --source=ts"
+    "build": "NODE_ENV=production vpack build"
   },
 ```
-
-需要通过参数`source`指定构建打包源文件格式，其取值为`'js', 'ts'`格式之一。
 
 **第二步**：命令行进入项目目录，运行：
 

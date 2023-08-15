@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [chan-log](https://github.com/conventional-changelog/chan-log) for commit guidelines.
 
+## 1.0.0 (2023-08-15)
+
 ## [1.1.0](https://github.com/YanPanMichael/vpack/compare/v1.0.3...v1.1.0) (2023-07-27)
 
 

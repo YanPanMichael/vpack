@@ -94,7 +94,7 @@ ${banner}
         )}  \\_/__/
 
 ╭──────────────────────────────────────────────────╮
-│              JS/TS Module Builder                │${runtimeStrLine}
+│                Vue Module Builder                │${runtimeStrLine}
 ╰──────────────────────────────────────────────────╯
 `)
 }

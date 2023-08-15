@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 # @autopack/vpack <small></small>
-> 📦 One common construction and package tool for JS/TS components based on Rollup 📦
+> 📦 One common construction and package tool for Vue components based on Rollup 📦
 
 ### 安装：npm install --save @autopack/vpack
 

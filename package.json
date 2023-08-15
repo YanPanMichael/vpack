@@ -1,7 +1,7 @@
 {
   "name": "@autopack/vpack",
-  "version": "0.0.1",
-  "description": "📦 基于rollup的JS、TS包构建工具 | One common construction and package tool for JS/TS components based on Rollup 📦",
+  "version": "1.0.0",
+  "description": "📦 基于rollup的VUE包构建工具 | One common construction and package tool for VUE components based on Rollup 📦",
   "author": "yanpanmichael",
   "license": "MIT",
   "repository": {
@@ -29,7 +29,7 @@
   },
   "scripts": {
     "release": "qkrelease --skipBuild",
-    "build": "NODE_ENV=production node bin/cli.js --source=ts",
+    "build": "NODE_ENV=production node bin/cli.js build",
     "format": "prettier --write .",
     "lint": "eslint src",
     "fix": "eslint src/**/*.* --fix",
